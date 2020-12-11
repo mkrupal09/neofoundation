@@ -3,7 +3,7 @@ body{font-family: 'Poppins', sans-serif;letter-spacing:1px;color:#000000;}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,p{line-height: 2 !important}
 
 .material-icons{vertical-align: middle}
-.hero{height:500px;background-image:url('https://images.ctfassets.net/2w85ks0ylymt/3VwzkUUMCUs8h89uqIXUk0/fcb32eb0be76d10ed096579af0aac2e2/1118-hp-hero.jpg?w=2880');background-size:cover;background-repeat:no-repeat;position:relative;overflow:hidden;background-position: center;position:relative;}
+.hero{height:500px;background-image:url('../images/wa.jpeg');background-size:cover;background-repeat:no-repeat;position:relative;overflow:hidden;background-position: center;position:relative;}
 
 .btn{border-radius: 0px;}
 .btn.btn-primary{background:#0028ff !important;border:1px solid #0028ff !important;color:#fff !important;}
@@ -39,6 +39,26 @@ body{font-family: 'Poppins', sans-serif;letter-spacing:1px;color:#000000;}
 .team-boxed .social a{color:inherit;margin:0 10px;display:inline-block;opacity:0.7;}
 .team-boxed .social a:hover{opacity:1;}
 
+.kc_fab_main_btn{
+  background-color:#F44336;
+  width:120px;
+  height:60px;
+  border-radius:10%;
+  background:#F44336;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.3s;  
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.kc_fab_main_btn:focus {
+  transform:scale(1.0);
+  transform:rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
 @media (max-width:767px){
 	.team-boxed h2{margin-bottom:25px;padding-top:25px;font-size:24px;}
 	.about-us-text{margin-top:50px;text-align: center !important;}
